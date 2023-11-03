@@ -132,7 +132,7 @@ if __name__ == '__main__':
     parser.add_argument('--weight-decay', type=float, default=1e-5)  # weight_decay
 
     # data directory
-    parser.add_argument('--data-path', type=str, default=r"/usr/local/Huangshuqi/ImageData/flower_data")
+    parser.add_argument('--data-path', type=str, default=r"./flower_data")
 
     # pretrain weights directory
     # parser.add_argument('--weights', type=str, default='', help='initial weights path')
