@@ -141,7 +141,7 @@ if __name__ == '__main__':
     # parser.add_argument('--freeze-layers', type=bool, default=False)
 
     # checkpoint
-    # parser.add_argument('--resume', type=bool, default=True)
+    parser.add_argument('--resume', type=str, default='./CCT_Save_weights/model.pth')
 
     # amp
     parser.add_argument('--scalar', type=bool, default=True)
